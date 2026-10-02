@@ -1,0 +1,243 @@
+===============================================================================
+                              VICE CITY SKATE
+          GTA Vice City + Skate 3's skateboarding, in one game
+===============================================================================
+
+ QUICK START
+ -----------
+  1. Right-click the "Vice City Skate" zip > Extract All... > extract it to
+     a simple folder like  C:\Games\Vice City Skate
+  2. Open that folder and double-click  "2 - Play Vice City Skate"
+  3. Answer the two questions (your GTA Vice City folder, and your
+     Skate 3 default.xex - you can drag them into the window).
+  4. In the game, wait ~15 seconds, then press J to skate.
+
+  Need help finding those two things? Read on.
+
+ You never need to open the "Files" folder.
+
+-------------------------------------------------------------------------------
+
+Walk up anywhere in Vice City, press J, and Tommy drops onto a skateboard
+driven by Skate 3's own physics, flick-it tricks, grinds and bails, while the
+city carries on around you: people react, cops chase you, cars run you over.
+
+This download contains NO game files. You connect your own copy of
+GTA Vice City and your own copy of Skate 3 during setup (steps below).
+Your original game folders are only read, never changed.
+
+
+-------------------------------------------------------------------------------
+ WHAT YOU NEED
+-------------------------------------------------------------------------------
+
+ [ ] Windows 10 or 11, 64-bit
+ [ ] GTA Vice City for PC - the ORIGINAL 2002 version
+       (Steam, Rockstar Games Launcher, or the old CD version all work.
+        The "Definitive Edition" does NOT work.)
+ [ ] Skate 3 for Xbox 360, extracted to a folder (see step 2)
+ [ ] An Xbox controller (or any XInput controller) - needed to skate
+ [ ] About 2 GB of free disk space
+
+
+-------------------------------------------------------------------------------
+ STEP 1 - FIND YOUR GTA VICE CITY FOLDER
+-------------------------------------------------------------------------------
+
+Setup usually finds it by itself. If it doesn't, here's where it is:
+
+ * Steam: in your Library, right-click "Grand Theft Auto: Vice City"
+   > Manage > Browse local files. That window is the folder.
+   (Usually ...\Steam\steamapps\common\Grand Theft Auto Vice City)
+
+ * Rockstar Games Launcher: usually
+   C:\Program Files\Rockstar Games\Grand Theft Auto Vice City
+
+ * CD version: usually
+   C:\Program Files (x86)\Rockstar Games\Grand Theft Auto Vice City
+
+The right folder has these inside: "models", "data", "anim", "audio" and
+the file gta-vc.exe.
+
+
+-------------------------------------------------------------------------------
+ STEP 2 - GET SKATE 3's default.xex (from your own copy)
+-------------------------------------------------------------------------------
+
+Setup needs the file "default.xex" from Skate 3 for Xbox 360, with the
+game's "data" folder next to it, like this:
+
+      Skate 3\
+        default.xex
+        data\
+          big\ ...
+          content\ ...
+
+How to get that folder from your own copy:
+
+ * From a disc image (.iso) of your disc: download extract-xiso
+   (https://github.com/XboxDev/extract-xiso), then run
+       extract-xiso -x "Skate 3.iso"
+   It creates the folder with default.xex and data inside.
+
+ * From a digital (Games on Demand) copy on your Xbox 360 hard drive:
+   copy the game's package to your PC and open it with a tool such as
+   Velocity, then extract everything to a folder.
+
+An .iso file by itself does NOT work - it has to be extracted first.
+
+
+-------------------------------------------------------------------------------
+ STEP 3 - INSTALL AND PLAY
+-------------------------------------------------------------------------------
+
+ 1. Extract the zip (right-click > Extract All...) to a simple folder that
+    you can write to, for example:  C:\Games\Vice City Skate
+    Not inside Program Files, and no accents or symbols in the path.
+    Tip: before extracting, right-click the zip > Properties > tick
+    "Unblock" > OK. Windows then won't warn about every file.
+
+ 2. Double-click  "2 - Play Vice City Skate"
+    (If Windows says "Windows protected your PC", click "More info" and
+     then "Run anyway".)
+
+ 3. A window asks two questions:
+
+      Step 1 of 2: your GTA Vice City folder
+        - If it shows "Found: ...", just press Enter.
+        - Otherwise drag your Vice City folder into the window
+          (or paste its path) and press Enter.
+
+      Step 2 of 2: your Skate 3 default.xex
+        - Drag the default.xex file (or the folder it's in) into the
+          window and press Enter.
+
+ 4. Wait a minute while it copies Vice City and converts the Skate 3 data.
+    Then the game starts by itself.
+
+ From then on, "2 - Play Vice City Skate" starts the game straight away.
+
+ In the game: stand still for about 15 seconds after loading (Skate 3 loads
+ in the background), then press J.
+
+
+-------------------------------------------------------------------------------
+ CONTROLS
+-------------------------------------------------------------------------------
+
+ On foot
+   J  or  click both sticks in ............ get on the board
+
+ Skating (controller, Skate 3's flick-it controls)
+   A or X .................................. push
+   Left stick .............................. steer / lean
+   Right stick: pull down, then flick up ... ollie
+   Right stick, other flicks ............... flip tricks
+   Triggers ................................ grabs
+   Other buttons ........................... as in Skate 3
+   J  or  click both sticks in ............ get off (keeps some of your speed)
+
+ Keyboard while skating
+   1 ....................................... speed push
+   2 ....................................... big jump
+
+ Skate tools menu:  Ctrl+M  (then open "VC Skate")
+   Speed push / big jump amounts, gravity (moon jumps), push strength,
+   ollie height, no bails, show grind rails (the cyan lines), show skate
+   info. Arrow keys to move, Enter or Left/Right to change, Ctrl+M to close.
+   Your choices are saved.
+
+
+-------------------------------------------------------------------------------
+ TROUBLESHOOTING
+-------------------------------------------------------------------------------
+
+ "Vice City Skate is not unzipped yet"
+     You opened it inside the zip. Extract the zip first (Quick Start, 1).
+
+ "That folder is not GTA Vice City"
+     Pick the folder that has models, data and anim inside (see step 1).
+     The Definitive Edition doesn't work.
+
+ "That is not a default.xex file" / "data folder ... is incomplete"
+     Point it at the extracted Skate 3 folder from step 2, with the data
+     folder beside default.xex. An .iso doesn't work.
+
+ "This folder is read-only" / "move the Vice City Skate folder"
+     Move the whole Vice City Skate folder to e.g. C:\Games and run
+     "2 - Play Vice City Skate" again.
+
+ "Windows protected your PC"
+     Click "More info", then "Run anyway". (Or unblock the zip before
+     extracting, see step 3.)
+
+ J says "Skate 3 is still loading"
+     Wait 15 seconds after the game loads and try again.
+
+ I can get on the board but can't move
+     Plug in an Xbox controller - skating uses the controller.
+
+ The game crashes when I Alt+Tab or click away while it starts
+     That's reVC's fullscreen mode. Start it again, or play windowed:
+     open Files\game\reVC.ini, and under [VideoMode] set Windowed=1.
+
+ Start setup over
+     Delete the folder Files\game and run "2 - Play Vice City Skate" again.
+
+ Turn skate mode off
+     In Files\game\reVC.ini under [VCSkate], set Enabled=0.
+
+ Something else went wrong
+     Look at Files\game\skate.log - it says what happened.
+
+
+-------------------------------------------------------------------------------
+ KNOWN ISSUES
+-------------------------------------------------------------------------------
+
+ * Parked cars aren't solid for the board (you ride through them). Moving
+   cars knock you off.
+ * You can't get in a vehicle while skating - get off first.
+ * Skating ends by itself when you die, get busted, a cutscene or mission
+   takes control, you're teleported, the game saves or loads, or you land
+   in water.
+ * "No bails" stops most bails, but not every single one.
+
+
+-------------------------------------------------------------------------------
+ WHAT'S IN THE FOLDER
+-------------------------------------------------------------------------------
+
+ 1 - READ ME FIRST.txt ........ this file
+ 2 - Play Vice City Skate ..... setup (first time), then starts the game
+ Files\bin .................... the game program and skate mode
+ Files\setup .................. the setup script and Skate 3 converter
+ Files\licenses ............... licenses of everything included
+ Files\game ................... your playable copy (made by setup; your
+                                saves, settings and skate.log live here)
+
+
+-------------------------------------------------------------------------------
+ UNINSTALL
+-------------------------------------------------------------------------------
+
+ Delete the "Vice City Skate" folder. Your original GTA Vice City and
+ Skate 3 folders were never changed.
+
+
+-------------------------------------------------------------------------------
+ CREDITS
+-------------------------------------------------------------------------------
+
+ * reVC - the reverse-engineered GTA Vice City this runs on
+   https://github.com/mrxenginner/reVC
+ * The Skate 3 engine from "2010 Rust Rewrite Mashup"
+   https://github.com/chasmlol/2010-rust-rewrite-mashup (Apache-2.0),
+   a fork of IW4L by vladtrc, with the skate crates from
+   SK8-ENGINE/skate-3-rust-engine.
+ * librw, OpenAL Soft, mpg123, Python, NumPy, Pillow, PyInstaller.
+   Licenses are in Files\licenses.
+
+ GTA Vice City belongs to Rockstar Games / Take-Two Interactive. Skate 3
+ belongs to Electronic Arts. This is an unofficial fan project, not
+ affiliated with any of them. You need your own copies of both games.

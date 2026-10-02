@@ -1,0 +1,7 @@
+mpg123 (libmpg123-0.dll) is distributed under the GNU Lesser General Public
+License 2.1; source: https://www.mpg123.de/ (built by the reVC project,
+vendor/mpg123). OpenAL Soft (OpenAL32.dll) is LGPL 2.0, see
+OpenAL-Soft-COPYING.txt; source: https://openal-soft.org/.
+librw (https://github.com/aap/librw) is compiled into reVC.exe (MIT).
+The converter (Files\setup\iw4l-skate-convert.exe) bundles Python 3.13, NumPy,
+Pillow and SK8-ENGINE/skate-3-rust-engine's tools (cb79689) with PyInstaller.

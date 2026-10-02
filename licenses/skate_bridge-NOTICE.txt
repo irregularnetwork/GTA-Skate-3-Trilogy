@@ -1,0 +1,28 @@
+skate_bridge
+============
+
+A game-agnostic C API around the Skate 3 engine, written for the private
+"Vice City Skate" build. Not distributed.
+
+It links, unmodified, the Skate 3 engine crates from the `skate/` tree of
+
+  2010 Rust Rewrite Mashup - https://github.com/chasmlol/2010-rust-rewrite-mashup
+  (Apache License 2.0; a fork of IW4L by vladtrc, https://github.com/vladtrc/iw4L)
+
+which were taken from
+
+  SK8-ENGINE/skate-3-rust-engine - https://github.com/SK8-ENGINE/skate-3-rust-engine
+  at commit cb79689.
+
+Code copied or adapted from the mashup (Apache-2.0), with thanks:
+  src/rails.rs      crates/render_anim/src/skate/rails.rs, unchanged
+  src/collision.rs  after crates/render_anim/src/skate/collision.rs
+  src/rig.rs        after crates/render_anim/src/skate/rig.rs (retarget and board skinning math)
+  src/board.rs      after crates/assets/src/skate_board.rs (skater.glb reading)
+  src/host.rs       after crates/render_anim/src/skate.rs (worker thread, epochs, streamed collision)
+
+LICENSE is the mashup's Apache-2.0 licence text; NOTICE-mashup is its NOTICE,
+kept as it requires.
+
+No Skate 3 code or data is contained here. The engine reads data converted on
+the player's machine from their own copy of Skate 3.
